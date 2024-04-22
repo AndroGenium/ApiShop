@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+img{
+    max-height: 250px;
+}
+body{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+    height: 1500px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    gap: 10px;
+    padding: 10px 0;
+
+}
+p{
+    font-family: "Roboto", sans-serif;
+}
